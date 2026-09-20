@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-20",
+  "pull_request": "https://github.com/langgenius/dify/pull/42580",
+  "baseline_commit": "2590d907698355ee2db0ede64d926112d8b96df1",
+  "head_commit": "0c616fc7dde1de50629e764ca9fbc3348bc8f030",
+  "method": "Production Vinext standalone, fresh Chromium 153 contexts, cache disabled, no Content-Encoding, local synthetic API fixtures",
+  "runtime": {
+    "node": "24.21.0",
+    "pnpm": "12.4.2",
+    "vinext": "1.0.0-beta.10",
+    "chromium": "153"
+  },
+  "unit": "JavaScript response body bytes; no content encoding",
+  "scope": "Recorded frontend fixture measurements; no LCP or live backend benchmark",
+  "routes": [
+    {
+      "route": "/app/benchmark-app/workflow",
+      "before_initial_js_body_bytes": 8141637,
+      "after_initial_js_body_bytes": 7850193,
+      "deferred_js_body_bytes": 291444,
+      "before_initial_js_requests": 498,
+      "after_initial_js_requests": 498,
+      "after_tools_open_js_requests": 501,
+      "after_tools_open_js_body_bytes": 8154126,
+      "body_overhead_after_tools_open": 12489
+    },
+    {
+      "route": "/datasets/benchmark-dataset/pipeline",
+      "before_initial_js_body_bytes": 7912896,
+      "after_initial_js_body_bytes": 7621452,
+      "deferred_js_body_bytes": 291444,
+      "before_initial_js_requests": 485,
+      "after_initial_js_requests": 485,
+      "after_tools_open_js_requests": 488,
+      "after_tools_open_js_body_bytes": 7925385,
+      "body_overhead_after_tools_open": 12489
+    },
+    {
+      "route": "/snippets/benchmark-snippet/orchestrate",
+      "before_initial_js_body_bytes": 7842514,
+      "after_initial_js_body_bytes": 7551070,
+      "deferred_js_body_bytes": 291444,
+      "before_initial_js_requests": 476,
+      "after_initial_js_requests": 476,
+      "after_tools_open_js_requests": 479,
+      "after_tools_open_js_body_bytes": 7855003,
+      "body_overhead_after_tools_open": 12489
+    }
+  ]
+}
