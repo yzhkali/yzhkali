@@ -10,6 +10,7 @@ I contribute fixes, tests, and performance improvements to open-source tools, wi
 
 | Project | Contribution | Pull request |
 | --- | --- | --- |
+| **FreeLLMAPI** | Add CLI provider-key management with hidden credential input, validation, and integration tests against the real API routes. | [#1276](https://github.com/tashfeenahmed/freellmapi/pull/1276) |
 | **cattrs** | Support PEP 695 type aliases in union passthrough, with Python 3.12 regression coverage. | [#753](https://github.com/python-attrs/cattrs/pull/753) |
 | **ran** | Preserve zero-valued root-bracketing boundaries on non-convergence; add regression tests. | [#604](https://github.com/synesenom/ran/pull/604) |
 | **Dify** | Migrate education-verification storage to shared React hooks and update behavior tests. | [#36934](https://github.com/langgenius/dify/pull/36934) |
@@ -20,10 +21,9 @@ I contribute fixes, tests, and performance improvements to open-source tools, wi
 
 ## Current contributions
 
-Both PRs below are **open, not yet merged**, as of September 20, 2026. Follow the links for their latest status.
+The Dify PR below is **open and awaiting maintainer review**, as of September 24, 2026. Follow the link for its latest status.
 
 - **[Dify #42580](https://github.com/langgenius/dify/pull/42580)** — Defer tool lists and pinyin grouping until needed. Includes loading-state regression tests and before/after measurements on production frontend builds. [Read the case study](case-studies/dify-tool-loading.md).
-- **[FreeLLMAPI #1276](https://github.com/tashfeenahmed/freellmapi/pull/1276)** — Add CLI provider-key management with dashboard authentication, hidden credential input, explicit failure handling, and integration tests against the real API routes.
 
 ## Project
 

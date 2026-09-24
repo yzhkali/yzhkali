@@ -7,7 +7,7 @@ scenarios, each route loaded **291,444 fewer JavaScript response body bytes
 initially**; opening Tools later incurred three additional requests.
 
 [PR #42580](https://github.com/langgenius/dify/pull/42580) is **open and awaiting
-review**, not merged, as of September 20, 2026. It addresses the concrete
+review**, not merged, as of September 24, 2026. It addresses the concrete
 `pinyin-pro` follow-up in [issue #42437](https://github.com/langgenius/dify/issues/42437),
 not the entire dependency audit.
 
